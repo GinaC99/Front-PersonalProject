@@ -1,25 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+ return(
+   <>
+    <h1>Binevenido este es el portafolio de Gina Paola Cortes, para continuar necesita estar registrado</h1>
+    <p>Para ingresar click <a href='/login'>aqui</a></p>
+    <p>Para registrarse click <a href='/register'>aqui</a>
+    </p>
+   </>
+ )
 }
 
 export default App;
